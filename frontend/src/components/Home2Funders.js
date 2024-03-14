@@ -24,7 +24,7 @@ const Home2Funders = () => {
                     <div className="funder-text">Funder 1 Text</div>
                 </div>
                 <div className="funders-slide">
-                    <img src="/test2.png" alt="Funder 2" className="funder-image" />
+                    <img src="/test5.png" alt="Funder 2" className="funder-image" />
                     <div className="funder-text">Funder 2 Text</div>
                 </div>
                 <div className="funders-slide">
@@ -36,7 +36,7 @@ const Home2Funders = () => {
                     <div className="funder-text">Funder 4 Text</div>
                 </div>
                 <div className="funders-slide">
-                    <img src="/test5.png" alt="Funder 5" className="funder-image" />
+                    <img src="/test2.png" alt="Funder 5" className="funder-image" />
                     <div className="funder-text">Funder 5 Text</div>
                 </div>
             </Carousel>

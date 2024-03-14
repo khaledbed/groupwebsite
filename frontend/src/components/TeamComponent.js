@@ -13,7 +13,7 @@ const TeamComponent = () => {
                 <Col xs={{ span: 24 }} md={{ span: 8 }}>
                     <Card className="team-card">
                         <Avatar size={200} src="people/Bastian2.jpg" />
-                        <Title level={3}>John Doe</Title>
+                        <Title level={3}>Bastian</Title>
                         <p>Research Scientist</p>
                         <Button type="primary">View Profile</Button>
                     </Card>
@@ -21,16 +21,16 @@ const TeamComponent = () => {
                 <Col xs={{ span: 24 }} md={{ span: 8 }}>
                     <Card className="team-card">
                         <Avatar size={200} src="people/lu.jpeg" />
-                        <Title level={3}>Jane Smith</Title>
-                        <p>Data Analyst</p>
+                        <Title level={3}>Lu</Title>
+                        <p>PhD Student</p>
                         <Button type="primary">View Profile</Button>
                     </Card>
                 </Col>
                 <Col xs={{ span: 24 }} md={{ span: 8 }}>
                     <Card className="team-card">
                         <Avatar size={200} src="people/Sascha.png" />
-                        <Title level={3}>David Johnson</Title>
-                        <p>Software Engineer</p>
+                        <Title level={3}>Sascha</Title>
+                        <p>Head of Data Integration</p>
                         <Button type="primary">View Profile</Button>
                     </Card>
                 </Col>
