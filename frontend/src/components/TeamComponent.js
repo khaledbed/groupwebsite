@@ -8,7 +8,7 @@ const { Title } = Typography;
 const TeamComponent = () => {
     return (
         <div className="team-container">
-            <Title level={2} className="section-title">Meet Our Team</Title>
+            <Title level={2} className="section-title">Meet Our Scientists</Title>
             <Row gutter={[32, 32]} align="middle">
                 <Col xs={{ span: 24 }} md={{ span: 8 }}>
                     <Card className="team-card">
@@ -28,9 +28,9 @@ const TeamComponent = () => {
                 </Col>
                 <Col xs={{ span: 24 }} md={{ span: 8 }}>
                     <Card className="team-card">
-                        <Avatar size={200} src="people/Sascha.png" />
-                        <Title level={3}>Sascha</Title>
-                        <p>Head of Data Integration</p>
+                        <Avatar size={200} src="people/Kexin.jpg" />
+                        <Title level={3}>Kexin</Title>
+                        <p>PhD Student</p>
                         <Button type="primary">View Profile</Button>
                     </Card>
                 </Col>
