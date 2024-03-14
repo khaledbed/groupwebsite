@@ -1,0 +1,73 @@
+/* Home2Slider.css */
+
+.slider {
+    position: relative;
+    margin-top: 50px; 
+    width: 88%; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    overflow: hidden; 
+}
+
+.placeholder {
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 50px;
+    position: relative;
+    object-position: top 20% left 0;
+    transition: all 0.3s ease;
+}
+
+.placeholder::before,
+.placeholder::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.placeholder::before {
+    left: -50%;
+    border-top-left-radius: 50px; 
+    border-bottom-left-radius: 50px; 
+}
+
+.placeholder::after {
+    right: -50%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-box {
+    text-align: center;
+    color: white; /* White text */
+    padding: 20px; /* Add padding to the text box */
+    border-radius: 20px; /* Add border radius to the text box */
+}
+
+.text-box h2 {
+    font-size: 28px; /* Increase font size */
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 18px; /* Increase font size */
+}

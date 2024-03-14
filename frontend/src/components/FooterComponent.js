@@ -10,11 +10,10 @@ const FooterComponent = () => {
     return (
         <Footer className="footer">
             <div className="footer-content">
-                <Text className="footer-text">Research Group ©2024 Created by You</Text>
+                <Text className="footer-text" style={{ textAlign: 'center' }}>Research Group ©2024 Created by Khaled </Text>
             </div>
         </Footer>
     );
 };
 
 export default FooterComponent;
-

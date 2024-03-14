@@ -1,0 +1,84 @@
+/* Home2Funders.css */
+
+.funders-section {
+    margin-top: 50px; /* Adjust margin top */
+    width: 88%; /* Adjust width */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; /* Set position to relative */
+}
+
+.funders-carousel {
+    border-radius: 50px; /* Add border radius */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.funders-slide {
+    position: relative; /* Make the slide container relative */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust height */
+    margin-bottom: 30px;
+}
+
+.funders-slide img {
+    width: auto;
+    height: 100%;
+    max-width: 80%;
+    border-radius: 40px; /* Add border radius to the image */
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+
+}
+
+.carousel-arrow {
+    font-size: 24px; /* Adjust font size of arrow icons */
+    color: #1890ff; /* Adjust arrow color */
+}
+
+.custom-dots {
+    position: absolute; /* Position pagination dots absolutely */
+    bottom: -20px; /* Adjust position of pagination dots */
+    width: 100%; /* Adjust width */
+    text-align: center; /* Center the pagination dots */    
+}
+
+.custom-dots li {
+    display: inline-block; /* Display pagination dots inline */
+}
+
+.custom-dots li button::before {
+    font-size: 10px; /* Adjust font size of pagination dot */
+    color: #000000; /* Adjust color of pagination dot to black */
+}
+
+.ant-carousel .slick-dots li button{
+    font-size: 10px; /* Adjust font size of pagination dot */
+    color: #000000; /* Adjust color of pagination dot to black */
+}
+.custom-dots li.slick-active button::before {
+    color: #1890ff; /* Adjust color of active pagination dot */
+}
+
+/* Additional styles for text inside funders section */
+.funder-text {
+    position: absolute; /* Position the text absolutely */
+    bottom: 10px; /* Adjust distance from the bottom */
+    left: 0; /* Align text to the left */
+    width: 50%; /* Make text span the entire width of the slide */
+    text-align: center; /* Center text horizontally */
+    color: #ffffff; /* White text */
+    font-size: 20px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    padding: 0; /* Add padding */
+    border-radius: 0 0 20px 20px; /* Add border radius to the bottom */
+}
+
+/* Additional styles for content below the slider */
+.additional-content {
+    margin-top: 50px; /* Adjust margin top */
+    text-align: center; /* Center text */
+    font-size: 18px; /* Adjust font size */
+    color: #333; /* Text color */
+}

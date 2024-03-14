@@ -12,7 +12,7 @@ const TeamComponent = () => {
             <Row gutter={[32, 32]} align="middle">
                 <Col xs={{ span: 24 }} md={{ span: 8 }}>
                     <Card className="team-card">
-                        <Avatar size={200} src="team-member-1.jpg" />
+                        <Avatar size={200} src="people/Bastian2.jpg" />
                         <Title level={3}>John Doe</Title>
                         <p>Research Scientist</p>
                         <Button type="primary">View Profile</Button>
@@ -20,7 +20,7 @@ const TeamComponent = () => {
                 </Col>
                 <Col xs={{ span: 24 }} md={{ span: 8 }}>
                     <Card className="team-card">
-                        <Avatar size={200} src="team-member-2.jpg" />
+                        <Avatar size={200} src="people/lu.jpeg" />
                         <Title level={3}>Jane Smith</Title>
                         <p>Data Analyst</p>
                         <Button type="primary">View Profile</Button>
@@ -28,7 +28,7 @@ const TeamComponent = () => {
                 </Col>
                 <Col xs={{ span: 24 }} md={{ span: 8 }}>
                     <Card className="team-card">
-                        <Avatar size={200} src="team-member-3.jpg" />
+                        <Avatar size={200} src="people/Sascha.png" />
                         <Title level={3}>David Johnson</Title>
                         <p>Software Engineer</p>
                         <Button type="primary">View Profile</Button>

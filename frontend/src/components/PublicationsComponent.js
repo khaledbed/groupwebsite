@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Typography, List } from 'antd';
+import { FileTextOutlined } from '@ant-design/icons'; // Import icon for publications
 
 const { Title } = Typography;
 
@@ -46,6 +47,7 @@ const PublicationsComponent = () => {
                                 </div>
                             }
                         />
+                        <FileTextOutlined style={{ fontSize: '24px', color: '#1890ff' }} /> {/* Add publication icon */}
                     </List.Item>
                 )}
             />
@@ -54,4 +56,3 @@ const PublicationsComponent = () => {
 };
 
 export default PublicationsComponent;
-

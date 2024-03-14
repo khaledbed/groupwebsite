@@ -1,0 +1,281 @@
+/* App.css */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Use a modern font */
+    background-color: #f8f8f8; /* Light gray background */
+    color: #333; /* Default text color */
+}
+
+/* Global styles for links */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+a:hover {
+    color: #0056b3; /* Darker color on hover */
+}
+
+/* HeroComponent.css */
+
+.hero-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg, #2980b9, #2c3e50); /* Gradient background */
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); /* Shadow overlay */
+}
+
+
+.hero-content {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative; /* Ensure content is positioned relative to the container */
+}
+
+.hero-text {
+    width: 100%;
+    text-align: center;
+    color: #fff; /* Set text color to white */
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for emphasis */
+}
+
+.hero-description {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for emphasis */
+}
+
+
+/* AboutComponent.css */
+
+.about-container {
+    padding: 100px 0;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center align text */
+}
+
+.about-text {
+    margin-bottom: 50px;
+    font-size: 1.2rem; /* Increase font size for better readability */
+    line-height: 1.6; /* Increase line height for better spacing */
+    color: #555; /* Darker text color for better contrast */
+}
+
+.about-image {
+    width: 100%;
+    height: 400px; /* Set height of the placeholder image */
+    background-color: #ccc; /* Light gray background color */
+    background-image: url("https://www.leibniz-hki.de/assets/images/9/ICSB2022_modif-bfa7e2ae.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.about-image:hover {
+    transform: scale(1.05); /* Scale up slightly on hover for interactive effect */
+}
+
+
+/* ProjectsComponent.css */
+.projects-container {
+    padding: 80px 0;
+    background-color: #f8f8f8; /* Light gray background */
+    text-align: center;
+    position: relative;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    font-size: 2.5rem; /* Increase font size for better emphasis */
+    color: #333; /* Darker text color for better contrast */
+}
+
+.projects-list {
+    display: flex;
+    gap: 20px; /* Add space between project cards */
+    padding-bottom: 20px; /* Add padding to prevent the last card from being hidden */
+    overflow-x: hidden; /* Hide the scrollbar */
+    overflow-y: hidden; /* Hide the vertical scrollbar if any */
+}
+
+.project-card {
+    flex: 0 0 auto; /* Prevent project cards from stretching */
+    min-width: 300px; /* Set minimum width for project cards */
+    max-width: 300px; /* Set maximum width for project cards */
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Scale up on hover for visual feedback */
+}
+
+.scroll-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.scroll-button {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333; /* Darker text color for better contrast */
+}
+
+
+
+
+
+/* FeaturesComponent.css */
+
+.features-container {
+    padding: 100px 0;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.feature-card {
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* TeamComponent.css */
+
+.team-container {
+    padding: 100px 0;
+    background-color: #fff; /* White background */
+}
+
+.team-card {
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* ContactComponent.css */
+
+.contact-container {
+    padding: 100px 0;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+
+
+
+/* PublicationsComponent.css */
+
+.publications-container {
+    padding: 100px 0;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+.section-title {
+    margin-bottom: 50px;
+    text-align: center; /* Center align section title */
+    font-size: 2.5rem; /* Increase font size for section title */
+    color: #333; /* Darken text color */
+}
+
+.ant-list {
+    margin: 0 auto; /* Center the list */
+    max-width: 800px; /* Limit the width of the list */
+}
+
+.ant-list-item {
+    border-bottom: 1px solid #e8e8e8; /* Add border between each publication */
+    padding: 20px 0; /* Add padding to each item */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.ant-list-item:hover {
+    background-color: #fafafa; /* Lighten background color on hover */
+}
+
+.ant-list-item-meta-title a {
+    color: #1890ff; /* Set link color for publication titles */
+    font-size: 1.3rem; /* Adjust font size */
+    font-weight: bold; /* Make titles bold */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.ant-list-item-meta-title a:hover {
+    color: #40a9ff; /* Darken link color on hover */
+}
+
+.ant-list-item-meta-description {
+    color: #666; /* Set color for publication details */
+    font-size: 1rem; /* Adjust font size */
+}
+
+.anticon-file-text {
+    font-size: 1.2rem; /* Adjust icon size */
+    color: #1890ff; /* Set icon color to match publication titles */
+    margin-right: 10px; /* Add spacing between publication details and icon */
+}
+
+
+
+/* FooterComponent.css */
+
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    color: #fff; 
+}
